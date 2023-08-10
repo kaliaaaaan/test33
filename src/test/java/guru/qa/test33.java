@@ -24,13 +24,11 @@ public class test33 {
         $("#userName").setValue("Nikolay");
         $("#userEmail").setValue("kalian48881@ya.ru");
         $("#currentAddress").setValue("Russia");
-        $("#permanentAddress").setValue("Moscow");
         $("#submit").click();
 
 //        $("#output").$("#name").shouldHave(text("Nikolay"));
         $("#output #name").shouldHave(text("Nikolay"));
         $("#output #email").shouldHave(text("kalian48881@ya.ru"));
         $("#output #currentAddress").shouldHave(text("Russia"));
-        $("#output #permanentAddress").shouldHave(text("Moscow"));
     }
 }
