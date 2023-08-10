@@ -1,2 +1,4 @@
-package guru.qa;public class Yandextest {
+package guru.qa;
+
+public class Yandextest {
 }
