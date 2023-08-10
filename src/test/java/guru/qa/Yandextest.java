@@ -15,6 +15,6 @@ public class Yandextest {
 
     @Test
     void Yandextest() {
-       //TODO
+        Selenide.open("https://ya.ru");
     }
 }
