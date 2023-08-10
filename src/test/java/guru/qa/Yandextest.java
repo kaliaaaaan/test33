@@ -16,5 +16,6 @@ public class Yandextest {
     @Test
     void Yandextest() {
         Selenide.open("https://ya.ru");
+        //test conflict
     }
 }
